@@ -89,7 +89,7 @@ function my_keydown(e)
 
 	function down()
 	{
-		if(ycoord > 580) {
+		if(ycoord < 580) {
 			ycoord = ycoord+20;
 	
 			can.remove(bo);
